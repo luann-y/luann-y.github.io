@@ -1,0 +1,85 @@
+body {
+  background-color: #FFF;
+  width: 100%;
+}
+
+h1, h2 {
+  color: white;
+  font-family: georgia, helvetica;
+}
+
+h1 {
+  font-size: 20pt;
+}
+
+img {
+  width: 200px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+    
+.item {
+  flex-basis: 250px;
+  max-width: 250px;
+  min-width: 60px;
+  margin: 10px;
+}
+
+
+.skills, .summary, .experience, .header {
+  font-size: 12pt;
+  background-color: #9AD2BF;
+  padding-top: 1px; 
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 900px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #7DA396;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.experience {
+  color: #000;
+  background-color: #9AD2BF;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-bottom: 10px;
+  max-width: 900px;
+}
+
+table {
+  font-family: georgia, helvetica;
+  width: 100%;
+  font-size: 10pt;
+  background-color: #9AD2BF;
+  padding-top: 1px; 
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #9AD2BF;
+}
+
+td, th {
+  background-color: #7DA396;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #7DA396;
+}
